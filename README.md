@@ -22,8 +22,8 @@ A common critique of LIME is its stochastic nature. We conducted a stability ana
 
 #### 3. Hyperparameter Sensitivity
 We analyzed how the Kernel Width affects the locality of the explanation.
-* **$\sigma = 0.75$ (Optimal):** Captures local nuance.
-* **$\sigma = 5.0$ (Too Large):** Over smooths the boundary, reverting to a global average that fails to capture non linearities.
+* **$\sigma = 0.75$:** Captures local nuance.
+* **$\sigma = 5.0$:** Over smooths the boundary, reverting to a global average that fails to capture non linearities.
 
 ### 🛠️ Tech Stack
 * **Core:** Python 3.10+
