@@ -19,11 +19,15 @@ Using synthetic non linear data, this repository demonstrates how LIME approxima
 #### 2. Robustness & Stability
 A common critique of LIME is its stochastic nature. We conducted a stability analysis by running the explainer **10 times** on the same instance.
 * **Result:** The standard deviation of feature weights was **< 0.01** confirming that the explanations are stable and reproducible.
+<img width="989" height="590" alt="stability_analysis" src="https://github.com/user-attachments/assets/5e84d3fc-f918-4080-ab50-6fdd11ccfdb7" />
+
 
 #### 3. Hyperparameter Sensitivity
 We analyzed how the Kernel Width affects the locality of the explanation.
 * **$\sigma = 0.75$:** Captures local nuance.
 * **$\sigma = 5.0$:** Over smooths the boundary, reverting to a global average that fails to capture non linearities.
+<img width="1789" height="480" alt="kernel_width_analysis" src="https://github.com/user-attachments/assets/b6034868-5da1-4e20-ad51-49b0e355ef9b" />
+
 
 ### 🛠️ Tech Stack
 * **Core:** Python 3.10+
