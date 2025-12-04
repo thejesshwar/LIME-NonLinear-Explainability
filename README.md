@@ -1,5 +1,5 @@
 # 🔍 Demystifying Black Box Models with LIME
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thejesshwar/LIME-NonLinear-Explainability/blob/main/notebooks/LIME_Analysis.ipynb)
 ### **Project Overview**
 Trust is the bottleneck of AI adoption. Modern black box models like Random Forests and Deep Neural Networks achieve high accuracy but sacrifice interpretability. This project explores **Local Interpretable Model Agnostic Explanations** to bridge this gap.
 
