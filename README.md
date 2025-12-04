@@ -36,4 +36,4 @@ We analyzed how the Kernel Width affects the locality of the explanation.
 ### 🚀 How to Run
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/thejesshwar/LIME-NonLinear-Explainability.git](https://github.com/thejesshwar/LIME-NonLinear-Explainability.git)
+   git clone [https://github.com/thejesshwar/LIME-NonLinear-Explainability.git]
